@@ -1,0 +1,254 @@
+
+body{
+    background-color: bisque;
+}
+
+/* Navigation */
+nav {
+    position: relative;
+    margin: 40px auto 0;
+    width: 590px;
+    height: 50px;
+    background: none;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+    display: flex;
+}
+
+nav a {
+    font-size: 20px;
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 45px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    font-family: Kanit;
+    font-weight: bold;
+    
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #f4f482;
+    border-radius: 8px;
+    transition: all .3s ease 0s;
+}
+
+nav a:nth-child(1) { width: 100px; }
+nav .start-home, a:nth-child(1):hover ~ .animation { width: 100px; left: 0; }
+
+nav a:nth-child(2) { width: 110px; }
+nav a:nth-child(2):hover ~ .animation { width: 110px; left: 100px; }
+
+nav a:nth-child(3) { width: 100px; }
+nav a:nth-child(3):hover ~ .animation { width: 100px; left: 210px; }
+
+nav a:nth-child(4) { width: 160px; }
+nav a:nth-child(4):hover ~ .animation { width: 160px; left: 310px; }
+
+nav a:nth-child(5) { width: 120px; }
+nav a:nth-child(5):hover ~ .animation { width: 120px; left: 470px; }
+
+header h1{
+    text-align: center;
+    font-family: Roboto;
+   
+}
+
+/*paragraph1*/
+.text1 h2{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Rethink Sans;
+    color: rgb(187, 21, 140);
+}
+
+.text1 p{
+    margin-top: -250px;
+    margin-left: 550px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Kalam;
+    border: 4px solid rgb(9, 57, 250);
+}
+
+.text1 img{
+    margin-left: 150px;
+    width: 20%;
+    margin-top: 10px;
+    
+}
+
+/*paragraph2*/
+.text2 h2{
+    margin-left: 50px;
+    margin-top: 120px;
+    font-family: Rethink Sans;
+    color: rgb(187, 21, 140);
+}
+
+.text2 p{
+    margin-top: -170px;
+    margin-left: 550px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Kalam;
+    border: 4px solid rgb(9, 57, 250);
+}
+
+.text2 img{
+    margin-left: 150px;
+    width: 20%;
+    margin-top: 10px;
+}
+
+
+/*paragraph3*/
+.text3 h2{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Rethink Sans;
+    color: rgb(187, 21, 140);
+}
+
+.text3 p{
+    margin-top: -170px;
+    margin-left: 550px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Kalam;
+    border: 4px solid rgb(9, 57, 250);
+}
+
+.text3 img{
+    margin-left: 150px;
+    width: 20%;
+    margin-top: 10px;
+}
+
+
+/*paragraph4*/
+.text4 h2{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: Rethink Sans;
+    color: rgb(187, 21, 140);
+}
+
+.text4 p{
+    margin-top: -270px;
+    margin-left: 550px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Kalam;
+    border: 4px solid rgb(9, 57, 250);
+}
+
+.text4 img{
+    margin-left: 150px;
+    width: 20%;
+    margin-top: 10px;
+}
+
+
+/*paragraph5*/
+.text5 h2{
+    margin-left: 50px;
+    margin-top: 140px;
+    font-family: Rethink Sans;
+    color: rgb(187, 21, 140);
+}
+
+.text5 p{
+    margin-top: -250px;
+    margin-left: 550px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Kalam;
+    border: 4px solid rgb(9, 57, 250);
+}
+
+.text5 img{
+    width: 20%;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+
+/*paragraph6*/
+.text6 h2{
+    margin-left: 50px;
+    margin-top: 140px;
+    font-family: Rethink Sans;
+    color: rgb(187, 21, 140);
+}
+
+.text6 p{
+    margin-top: -180px;
+    margin-left: 550px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Kalam;
+    border: 4px solid rgb(9, 57, 250);
+}
+
+.text6 img{
+    width: 20%;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+/*paragraph7*/
+.text7 h2{
+    margin-left: 50px;
+    margin-top: 80px;
+    font-family: Rethink Sans;
+    color: rgb(187, 21, 140);
+}
+
+.text7 p{
+    margin-top: -200px;
+    margin-left: 550px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Kalam;
+    border: 4px solid rgb(9, 57, 250);
+    
+    
+}
+
+.text7 img{
+    width: 20%;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.button{
+    margin-top: -140px;
+    margin-left: 1170px;
+    position: relative;
+    padding: 70px;
+    top:0;
+   
+    
+}
+
+.btn a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    background: rgb(172, 73, 19);
+    width: 80px;
+    padding: 10px;
+    color: rgb(246, 231, 231);
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    
+  }

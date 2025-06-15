@@ -1,0 +1,247 @@
+body{
+    background-color: antiquewhite;
+}
+/* Navigation */
+nav {
+    position: relative;
+    margin: 40px auto 0;
+    width: 590px;
+    height: 50px;
+    background: none;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+    display: flex;
+}
+
+nav a {
+    font-size: 20px;
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 45px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    font-family: Kanit;
+    font-weight: bold;
+    
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #f4f482;
+    border-radius: 8px;
+    transition: all .3s ease 0s;
+}
+
+nav a:nth-child(1) { width: 100px; }
+nav .start-home, a:nth-child(1):hover ~ .animation { width: 100px; left: 0; }
+
+nav a:nth-child(2) { width: 110px; }
+nav a:nth-child(2):hover ~ .animation { width: 110px; left: 100px; }
+
+nav a:nth-child(3) { width: 100px; }
+nav a:nth-child(3):hover ~ .animation { width: 100px; left: 210px; }
+
+nav a:nth-child(4) { width: 160px; }
+nav a:nth-child(4):hover ~ .animation { width: 160px; left: 310px; }
+
+nav a:nth-child(5) { width: 120px; }
+nav a:nth-child(5):hover ~ .animation { width: 120px; left: 470px; }
+
+/*header 01*/
+.head {
+    margin-top: 40px;
+    margin-left: 500px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Roboto;
+  }
+
+.headsp{
+    color: darkcyan;
+}
+/*rice*/
+.a img{
+    width: 60vh;
+    height: 50vh;
+    border-radius: 8px;
+}
+.a h2{
+    font-size: 25px;
+    margin-left: 80px;
+}
+.a p{
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: -350px;
+    line-height: 1.5;
+    font-family: Kalam;
+    color: darkblue;
+}
+
+/*hopper*/
+.b img{
+    width: 60vh;
+    height: 50vh;
+    margin-top: -10px;
+    border-radius: 8px;
+}
+
+.b h2{
+    margin-top: 210px;
+    margin-left: 80px;
+}
+
+.b P{
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: -350px;
+    line-height: 1.5;
+    font-family: Kalam;
+    color: rgb(235, 40, 40);
+}
+
+/*kottu*/
+.c img{
+    width: 60vh;
+    height: 50vh;
+    margin-top: -10px;
+    border-radius: 8px;
+}
+
+.c h2{
+    margin-top: 210px;
+    margin-left: 80px;
+}
+
+.c p{
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: -330px;
+    line-height: 1.5;
+    font-family: Kalam;
+    color: darkblue;
+}
+
+/*lamprais*/
+.d img{
+    width: 60vh;
+    height: 50vh;
+    margin-top: -10px;
+    border-radius: 8px;
+}
+.d h2{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.d p{
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: -330px;
+    line-height: 1.5;
+    font-family: Kalam;
+    color: rgb(235, 40, 40);
+}
+
+/*desserts*/
+.head2 {
+    margin-top: 170px;
+    margin-left: 550px;
+    font-size: 22px;
+    font-family: Roboto;
+    font-style: italic;
+    
+  }
+.head2 p{
+    margin-top: 30px;
+    margin-left: -520px;
+    font-family: Arima;
+    }
+
+.head2sp{
+    font-weight: bold;
+    color: rgb(215, 39, 201);
+}  
+
+/*drinks*/
+
+.head3 {
+    margin-top: 20px;
+    margin-left: 550px;
+    font-size: 22px;
+    font-family: Roboto;
+    font-style: italic;
+}
+
+.e img{
+    width: 40vh;
+    height: 40vh;
+    margin-top: -10px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.e h2{
+    margin-top: -330px;
+    margin-left: 80px;
+}
+
+.e p{
+    font-size: 20px;
+    margin-left: 400px;
+    margin-top: 70px;
+    line-height: 1.5;
+    font-family: Kalam;
+    color: darkblue;
+}
+
+
+.f img{
+    width: 40vh;
+    height: 40vh;
+    margin-top: 150px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.f h2{
+    margin-top: -340px;
+    margin-left: 80px;
+}
+
+.f p{
+    font-size: 20px;
+    margin-left: 400px;
+    margin-top: 70px;
+    line-height: 1.5;
+    font-family: Kalam;
+    color: darkblue;
+}
+.head4 {
+    margin-top: 150px;
+    margin-left: 350px;
+    font-size: 22px;
+    font-family: Roboto;
+    font-style: italic;
+    color: rgb(18, 65, 221);
+}
+/*video*/
+
+.video{
+    margin-top: 50px;
+    margin-left: 30px;
+   
+}
+
+.video2{
+    margin-top: -405px;
+    margin-left: 780px;
+}
+
+
+

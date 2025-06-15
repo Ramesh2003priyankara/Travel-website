@@ -1,0 +1,206 @@
+body{
+    background-color: rgb(234, 234, 195);
+}
+/* Navigation */
+nav {
+    position: relative;
+    margin: 40px auto 0;
+    width: 590px;
+    height: 50px;
+    background: none;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+    display: flex;
+}
+
+nav a {
+    font-size: 20px;
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 45px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    font-family: Kanit;
+    font-weight: bold;
+    
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #f4f482;
+    border-radius: 8px;
+    transition: all .3s ease 0s;
+}
+
+nav a:nth-child(1) { width: 100px; }
+nav .start-home, a:nth-child(1):hover ~ .animation { width: 100px; left: 0; }
+
+nav a:nth-child(2) { width: 110px; }
+nav a:nth-child(2):hover ~ .animation { width: 110px; left: 100px; }
+
+nav a:nth-child(3) { width: 100px; }
+nav a:nth-child(3):hover ~ .animation { width: 100px; left: 210px; }
+
+nav a:nth-child(4) { width: 160px; }
+nav a:nth-child(4):hover ~ .animation { width: 160px; left: 310px; }
+
+nav a:nth-child(5) { width: 120px; }
+nav a:nth-child(5):hover ~ .animation { width: 120px; left: 470px; }
+
+.head1 h1{
+    text-align: center;
+    font-family: Roboto;
+   
+}
+/*beach head*/
+.beach h2{
+    margin-left: 20px;
+    font-family: Chivo;
+    color: rgb(7, 82, 157);
+}
+.beach p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+/*img line 01*/
+.bk{
+    width: 90%;
+    padding: 10px;
+    margin: 40px auto;
+    display: flex;
+  
+  
+}
+.box{
+    width: 220px;
+    margin: 10px;
+    transition: 2s;
+    font-family: Itim ;
+}
+
+.box img{
+    width: 70%;
+    height: 70%;
+    border-radius: 8px;
+}
+
+.box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+/*national */
+
+.National{
+    margin-left: 20px;
+    font-family: Chivo;
+    color: rgb(7, 82, 157);
+    
+}
+.bk1{
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+  }
+.box1{
+    width: 220px;
+    margin: 10px;
+    transition: 2s;
+    font-family: Itim ;
+}
+
+.box1 img{
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+}
+
+.box1:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+/*nature*/
+
+.Nature{
+    margin-left: 20px;
+    margin-top: -80px;
+    font-family: Chivo;
+    color: rgb(7, 82, 157);
+    
+}
+.bk2{
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+  }
+.box2{
+    width: 220px;
+    margin: 10px;
+    transition: 2s;
+    font-family: Itim ;
+    
+}
+
+.box2 img{
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+}
+
+.box2:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+/*historical*/
+
+.historical h2{
+    margin-left: 20px;
+    font-family: Chivo;
+    margin-top: -60px;
+    color: rgb(7, 82, 157);
+}
+.historical p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+.bk3{
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+  }
+.box3{
+    width: 220px;
+    margin: 10px;
+    transition: 2s;
+    font-family: Itim ;
+}
+
+.box3 img{
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+}
+
+.box3:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+
+
+
